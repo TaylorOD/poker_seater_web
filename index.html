@@ -17,10 +17,19 @@
 
 <div>
   <h2 id="header">Welcome to Poker Seat Randomizer!</h2>
-  <p>Please enter the names of the players one at a time:</p>
+  <label for="player-names">Enter the Player names:</label>
+  <input type="text" id="player-names">
+  <input type="submit" value="Next Player">
+  <!-- add to array of names to be sorted -->
+
+
 
   <p>Entered Names:</p>
+  <!-- show entered names -->
   <p id="entered-names"></p>
+  
+  <label for="more-than-ten">More than ten players?</label>
+  <input type="checkbox" id="more-than-ten">
 
   <button id="randomize" class="button">Randomize Seats</button>
   
