@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Poker Sorter</title>
 
+  <link href="/images/favicon.png" rel="icon">
   <link rel="stylesheet" href="/styles/styles.css">
 
 </head>
@@ -14,7 +15,25 @@
 
 </div>
 
+<div>
+  <h2 id="header">Welcome to Poker Seat Randomizer!</h2>
+  <label for="player-names">Enter the Player names:</label>
+  <input type="text" id="player-names">
+  <input type="submit" value="Next Player">
+  <!-- add to array of names to be sorted -->
+
+
+
+  <p>Entered Names:</p>
+  <!-- show entered names -->
+  <p id="entered-names"></p>
   
+  <label for="more-than-ten">More than ten players?</label>
+  <input type="checkbox" id="more-than-ten">
+
+  <button id="randomize" class="button">Randomize Seats</button>
+  
+</div>
 <script>
 
 
@@ -23,3 +42,13 @@
 
 </body>
 </html>
+
+<!-- 
+
+puts "See the players below:"
+p poker_players_names.shuffle
+
+puts "Their seat number:"
+
+
+puts "Shuffle em and deal!" -->
